@@ -189,8 +189,8 @@ button {
   }
 
   .logo {
-    padding-left: 39px;
-    padding-top: 50px;
+    padding-left: 2.438rem;
+    padding-top: 3.125rem;
   }
 
   .background-image__tablet {
@@ -198,8 +198,8 @@ button {
     position: absolute;
     width: 491px;
     height: 767px;
-    left: 326px;
-    top: -90px;
+    left: 20.375rem;
+    top: -5.625rem;
     transform: scale(0.8);
   }
 
@@ -209,8 +209,8 @@ button {
     background-color: black;
     opacity: 0.98;
     position: relative;
-    top: 80px;
-    left: 39px;
+    top: 5rem;
+    left: 2.438rem;
   }
 
   .text__title,
@@ -220,18 +220,18 @@ button {
   }
 
   .text__title {
-    font-size: 38px;
-    line-height: 38px;
+    font-size: 2.375rem;
+    line-height: 2.375rem;
   }
 
   .text__title--white {
     position: relative;
-    right: 25px;
+    right: 1.563rem;
   }
 
   .text__body {
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .grid {
@@ -252,8 +252,8 @@ button {
   input {
     width: 427px;
     position: absolute;
-    left: 0px;
-    top: 260px;
+    left: 0rem;
+    top: 16.25rem;
   }
 
   button {
@@ -261,30 +261,30 @@ button {
     width: 162px;
 
     position: absolute;
-    left: 265px;
-    top: 260px;
+    left: 16.563rem;
+    top: 16.25rem;
   }
 
   .media {
     position: relative;
-    bottom: 30px;
+    bottom: 1.875rem;
     opacity: 0.6;
   }
 
   .media__spotify {
-    margin-right: 40px;
+    margin-right: 2.5rem;
     height: 29px;
     width: 96px;
   }
 
   .media__apple {
-    margin-right: 41px;
+    margin-right: 2.563rem;
     height: 29px;
     width: 78px;
   }
 
   .media__google {
-    margin-right: 41px;
+    margin-right: 2.563rem;
     height: 18px;
     width: 125px;
   }
