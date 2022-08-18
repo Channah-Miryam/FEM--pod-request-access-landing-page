@@ -242,7 +242,7 @@ button {
       'images';
   }
 
-  .email {
+  input {
     grid-area: email;
   }
   .media {
@@ -305,5 +305,72 @@ button {
 
   .attribution {
     background: white;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .background-image__tablet,
+  .background-image__mobile {
+    display: none;
+  }
+
+  .background-image__desktop {
+    display: inline;
+    position: absolute;
+    width: 888px;
+    height: 640px;
+    left: 552px;
+    top: 80px;
+  }
+
+  body {
+    background-color: black;
+  }
+
+  .attribution {
+    background-color: black;
+    color: white;
+  }
+
+  .page-container {
+    width: 100%;
+    height: 100%;
+    min-width: 1440px;
+  }
+
+  .dots {
+    position: absolute;
+    width: 232px;
+    height: 104px;
+    left: 1198px;
+    top: 648px;
+  }
+
+  .logo {
+    padding-left: 65px;
+    padding-top: 102px;
+  }
+
+  .text-container-for-desktop {
+    width: 812px;
+    height: 509px;
+    top: 100px;
+  }
+
+  .text__title {
+    font-size: 52px;
+    line-height: 62px;
+  }
+
+  .text__body {
+    width: 60%;
+  }
+
+  input {
+    top: 310px;
+  }
+
+  button {
+    top: 310px;
   }
 }
