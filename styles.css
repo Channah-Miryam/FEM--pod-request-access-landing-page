@@ -319,8 +319,8 @@ button {
     position: absolute;
     width: 888px;
     height: 640px;
-    left: 552px;
-    top: 80px;
+    left: 34.5rem;
+    top: 5rem;
   }
 
   body {
@@ -342,24 +342,24 @@ button {
     position: absolute;
     width: 232px;
     height: 104px;
-    left: 1198px;
-    top: 648px;
+    left: 74.875rem;
+    top: 40.5rem;
   }
 
   .logo {
-    padding-left: 65px;
-    padding-top: 102px;
+    padding-left: 4.063rem;
+    padding-top: 6.375rem;
   }
 
   .text-container-for-desktop {
     width: 812px;
     height: 509px;
-    top: 100px;
+    top: 6.25rem;
   }
 
   .text__title {
-    font-size: 52px;
-    line-height: 62px;
+    font-size: 3.25rem;
+    line-height: 3.875rem;
   }
 
   .text__body {
@@ -367,10 +367,10 @@ button {
   }
 
   input {
-    top: 310px;
+    top: 19.375rem;
   }
 
   button {
-    top: 310px;
+    top: 19.375rem;
   }
 }
