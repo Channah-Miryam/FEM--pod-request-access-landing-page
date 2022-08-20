@@ -13,6 +13,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;700&display=swap" rel="stylesheet">
+  <!--link javaScript-->
+  <script src="script.js" defer></script>
 
   <title>Frontend Mentor | Pod request access landing page</title>
 </head>
@@ -24,34 +26,44 @@
         <img src="assets\desktop\logo.svg" alt="pod logo">
       </div>
 
-      <div>
-        <img class="background-image-for-tablet" src="assets\tablet\image-host.jpg" alt="background image">
+      <div class="background-image">
+        <img class="background-image__mobile" src="assets/mobile/image-host.jpg" alt="background image">
+        <img class="background-image__tablet" src="assets/tablet/image-host.jpg" alt="background image">
+        <img class="background-image__desktop" src="assets/desktop/image-host.jpg" alt="background image">
       </div>
 
-      <div class="text">
-        <p class="text__title text__title--green">
-          Publish your podcasts <span class="text__title text__title--white">everywhere.</span>
-        </p>
-        <p class="text__body">
-          Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify,
-          Apple Podcasts, Google Podcasts, Pocket Casts and more!
-        </p>
+      <div class="text-container-for-desktop">
+        <div class="text">
+          <p class="text__title text__title--green">
+            Publish your podcasts <span class="text__title text__title--white">everywhere.</span>
+          </p>
+          <p class="text__body">
+            Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify,
+            Apple Podcasts, Google Podcasts, Pocket Casts and more!
+          </p>
+        </div>
+
+        <div class="grid-to-swap-elements-order">
+          <div class="media">
+            <img src="assets\desktop\spotify.svg" alt="spotify logo" class="media__spotify">
+            <img src="assets\desktop\apple-podcast.svg" alt="apple podcast logo" class="media__apple">
+            <img src="assets\desktop\google-podcasts.svg" alt="google podcasts logo" class="media__google">
+            <img src="assets\desktop\pocket-casts.svg" alt="pocket casts logo" class="media__pocket">
+          </div>
+
+          <div class="email">
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email" value="email" placeholder="Email address">
+          </div>
+          <p id="email__error"></p>
+          <button id="email__button">Request access</button>
+        </div>
       </div>
 
-      <div class="media">
-        <img src="assets\desktop\spotify.svg" alt="spotify logo" class="media media__spotify">
-        <img src="assets\desktop\apple-podcast.svg" alt="apple podcast logo" class="media media__apple">
-        <img src="assets\desktop\google-podcasts.svg" alt="google podcasts logo" class="media media__google">
-        <img src="assets\desktop\pocket-casts.svg" alt="pocket casts logo" class="media media__pocket">
-      </div>
 
-      <div class="email">
-        <label for="email">Enter your email:</label>
-        <input type="email" id="email" name="email" placeholder="Email address">
-      </div>
-      <button>Request access</button>
+      <img class="dots" src="assets\desktop\bg-pattern-dots.svg" alt="">
     </div>
-    <footer class="attribution"></footer>
+
   </div>
   <footer>
     <p class="attribution">
