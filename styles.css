@@ -155,6 +155,17 @@ input {
   margin-left: 1.5rem;
 }
 
+#email__error {
+  font-size: 12px;
+  line-height: 14px;
+  color: #fb3e3e;
+  font-weight: bold;
+
+  margin-right: 1.5rem;
+  margin-bottom: 1rem;
+  margin-left: 6rem;
+}
+
 button {
   border-radius: 20px 20px 20px 20px;
   border: none;
@@ -169,6 +180,11 @@ button {
   line-height: 1.75rem;
   color: #121725;
   opacity: 0.8;
+}
+
+button:hover {
+  background-color: #9bdac2;
+  cursor: pointer;
 }
 
 .background-image__tablet,
@@ -234,17 +250,24 @@ button {
     line-height: 1.75rem;
   }
 
-  .grid {
+  .grid-to-swap-elements-order {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
       'email'
+      'error'
       'images';
   }
 
   input {
     grid-area: email;
   }
+
+  #email__error {
+    grid-area: error;
+    padding-top: 1rem;
+  }
+
   .media {
     grid-area: images;
   }
@@ -267,7 +290,7 @@ button {
 
   .media {
     position: relative;
-    bottom: 1.875rem;
+    bottom: 6.875rem;
     opacity: 0.6;
   }
 
@@ -372,5 +395,14 @@ button {
 
   button {
     top: 19.375rem;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .page-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
   }
 }
