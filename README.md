@@ -16,12 +16,12 @@ Responsiveness: Tested with Responsively for various devices (but not every exis
 
 Accessibility Issues: Axe unable to determine contrast due to background image. 
 
-Accessibility features: -Semantic HTML used -Aria property added to improve screen reader navigation. Skip link included. 
+Screen reader accessibility: Tested with NVDA.
+
+Accessibility features: Semantic HTML used. Skip link included to make navigation to screen reader users easier. Aria properties not used in this project.
 
 Tools used to test accessibility: -Axe dev tools extention (general accessibility including color contrast and alt text) -Google lighthouse (general accessibility including color contrast and alt text) 
 
 Accessibility checklist for reference: https://www.a11yproject.com/checklist/
-
-Screen reader accessibility: Tested with NVDA.
 
 Testing suite: Not included.
