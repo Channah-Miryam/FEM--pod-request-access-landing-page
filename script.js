@@ -8,6 +8,7 @@
 
 //Vanilla JavaScript using regex // Email validation using regex solution
 
+let emailButton = '';
 let emailButton = document.getElementById('email__button');
 emailButton.addEventListener('click', captureUserInput);
 
