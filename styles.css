@@ -209,6 +209,11 @@ button:hover {
   }
 
   .page-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+
     width: 768px;
     max-width: 768px;
   }
