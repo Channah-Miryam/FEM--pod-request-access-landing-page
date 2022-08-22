@@ -212,6 +212,7 @@ button:hover {
 
     width: 768px;
     max-width: 768px;
+    min-height: 750px;
   }
 
   .logo {
@@ -332,8 +333,10 @@ button:hover {
     width: 232px;
     height: 104px;
     opacity: 0.99;
-    margin-bottom: -40px;
     margin-left: 39px;
+
+    position: relative;
+    top: -20px;
   }
 
   .attribution {
@@ -379,7 +382,7 @@ button:hover {
     width: 232px;
     height: 104px;
     left: 74.875rem;
-    top: 39.5rem;
+    top: 40.5rem;
   }
 
   .logo {
