@@ -8,7 +8,6 @@
 
 //Vanilla JavaScript using regex // Email validation using regex solution
 
-let emailButton = '';
 let emailButton = document.getElementById('email__button');
 emailButton.addEventListener('click', captureUserInput);
 
@@ -28,6 +27,7 @@ function captureUserInput() {
     return true;
   } else if (userInput.match(emptyString)) {
     inputError.innerHTML = 'Oops! Please add your email';
+    userInputField.focus();
   } else {
     inputError.innerHTML = 'Oops! Please check your email';
     userInputField.focus();
