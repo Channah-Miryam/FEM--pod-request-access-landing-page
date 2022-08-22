@@ -32,6 +32,15 @@ body {
   color: blue;
 }
 
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+  overflow: hidden;
+}
+
 .page-container {
   position: fixed;
   top: 50%;
@@ -372,6 +381,8 @@ button:hover {
   .logo {
     padding-left: 4.063rem;
     padding-top: 6.375rem;
+    width: 134.85px;
+    height: 56px;
   }
 
   .text-container-for-desktop {
