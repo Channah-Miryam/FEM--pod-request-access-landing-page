@@ -369,10 +369,11 @@ button:hover {
   }
 
   .page-container {
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -55%);
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 
     min-width: 1440px;
   }
